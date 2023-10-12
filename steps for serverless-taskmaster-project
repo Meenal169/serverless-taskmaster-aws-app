@@ -40,7 +40,15 @@ it will update the cloudformation stack
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 go to projects > git clone url > ls
+run serverless deploy command you will get application not found error
 go to serverless app > create app > existing project > copy the command e.g ( serverless --org=minal) and run then run serverless deploy
+prompt will open > create a new app > name > deploy yes
+
+go to cloudformation > check stack
+dynamodb > check
+lambda > check function
+
+
 
  
 
