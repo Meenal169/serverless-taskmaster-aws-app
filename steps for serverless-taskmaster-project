@@ -1,0 +1,46 @@
+
+Create an ec2 instance
+
+https://www.serverless.com/ ---------serverless login
+https://computingforgeeks.com/install-node-js-14-on-ubuntu-debian-linux/  ------node.js installation
+****node.js installation****
+sudo apt update
+curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
+sudo apt -y install nodejs
+node  -v
+npm -v
+sudo npm install -g serverless
+sudo apt install awscli -y
+
+mkdir projects
+cd projects
+ls
+serverless --org=minal ---> serverless ac> you will see username...minal is mention there so i am using that as my username
+---it will ask you which project you want to create--- select that --
+select > HTTP API
+give project name
+select local aws access key 
+aws ac --> yes
+create user with access keys in aws 
+enter access and secret keys
+
+ec2 ls
+check all files
+go to cloudformation > stack > click on the project > resources 
+cloudformation > stack > project > updates > edit template in designer (3) 
+
+cd inside prj
+ls
+vim index.js
+change the message line "awesome day"
+run serverless deploy 
+copy the get command from output and run it on browser
+it will update the cloudformation stack
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+go to projects > git clone url >
+
+
+ 
+
