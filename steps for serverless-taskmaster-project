@@ -39,8 +39,8 @@ it will update the cloudformation stack
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-go to projects > git clone url >
-
+go to projects > git clone url > ls
+go to serverless app > create app > existing project > copy the command e.g ( serverless --org=minal) and run then run serverless deploy
 
  
 
